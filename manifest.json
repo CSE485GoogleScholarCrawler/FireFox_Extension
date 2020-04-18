@@ -1,22 +1,26 @@
 {
+  "description": "Initial version of plugin to capture academic data",
   "manifest_version": 2,
   "name": "Google Scholar Capture",
-  "version": "0.1",
+  "version": "0.5",
 
-  "description": "Initial version of plugin to capture academic data",
   "icons": {
     "48": "icons/ASU_image-48.png"
   },
 
   "permissions": [
-    "activeTab"
+    "activeTab",
+    "notifications"
   ],
 
-  "browser_action": {
-    "default_icon": {
-      "19": "button/arc-19.png"
-    },
-    "browser_style": true,
-    "default_title": "Academic Research Capture",
+  "background": {
+    "scripts": ["academiaCiting.js"]
   },
+
+  "browser_action": {
+    "default_title": "ASU Academia",
+    "default_icon": {
+      "16": "icons/ASU-32.png"
+    }
+  }
 }
