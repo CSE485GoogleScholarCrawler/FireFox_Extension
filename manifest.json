@@ -9,18 +9,19 @@
   },
 
   "permissions": [
+    "*://*.scholar.google.com/scholar?*",
     "activeTab",
-    "notifications"
+    "notifications",
+    "webNavigation",
+    "storage"
   ],
 
-  "background": {
-    "scripts": ["academiaCiting.js"]
+  "browser_action": {
+    "default_icon": "icons/ASU-32.png",
+    "default_title": "Record Search Results"
   },
 
-  "browser_action": {
-    "default_title": "ASU Academia",
-    "default_icon": {
-      "16": "icons/ASU-32.png"
-    }
+  "background": {
+    "scripts" : ["academiaCiting.js"]
   }
 }
