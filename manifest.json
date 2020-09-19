@@ -8,12 +8,11 @@
     "48": "icons/ASU_image-48.png"
   },
 
-  "permissions": [
-    "*://*.scholar.google.com/scholar?*",
-    "activeTab",
-    "notifications",
-    "webNavigation",
-    "storage"
+  "content_scripts": [
+    {
+      "matches": ["*://scholar.google.com/scholar?*"],
+      "js": ["academiaCiting.js"]
+    }
   ],
 
   "browser_action": {
@@ -22,6 +21,14 @@
   },
 
   "background": {
-    "scripts" : ["academiaCiting.js"]
-  }
+    "scripts" : ["overwatch.js"]
+  },
+
+  "permissions": [
+    "<all_urls>",
+    "activeTab",
+    "notifications",
+    "webNavigation",
+    "storage"
+  ]
 }
