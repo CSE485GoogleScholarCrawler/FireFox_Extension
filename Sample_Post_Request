@@ -1,9 +1,10 @@
 Result Data Structure:
       let newPaper = {
-        url: paperSummaries[i].getAttribute("href"), // Subect to Change
+        url: paperSummaries[i].getAttribute("href"), // Subject to Change
         title: paperTitles[i].textContent,
         author: paperAuthors[i].textContent,
-        summary: paperSummaries[i].textContent
+        summary: paperSummaries[i].textContent,
+        citing: null // Have yet to identify how to gather this information
       }
       
 The following resultes were gathered from: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C3&q=black+death+europe&oq=
