@@ -1,0 +1,17 @@
+Result Data Structure:
+      let newPaper = {
+        url: paperSummaries[i].getAttribute("href"), // Subject to Change
+        title: paperTitles[i].textContent,
+        author: paperAuthors[i].textContent,
+        summary: paperSummaries[i].textContent,
+        citing: null // Have yet to identify how to gather this information
+      }
+      
+The following resultes were gathered from: https://scholar.google.com/scholar?hl=en&as_sdt=0%2C3&q=black+death+europe&oq=
+
+
+{"url":null,"title":"The Black Death transformed: disease and culture in early Renaissance Europe","author":"SK Cohn, SK Cohn - 2003 - historycooperative.org","summary":"Samuel K. Cohn, Jr., does not mince words. The opening sentence of his new book announces the author's discovery: the so-called Black Death, the fearsome pandemic that killed Europeans on a massive scale in the fourteenth century, was “any disease other than …","citing":null}
+
+{"url":null,"title":"Distinct clones of Yersinia pestis caused the black death","author":"S Haensch, R Bianucci, M Signoli, M Rajerison… - PLoS …, 2010 - journals.plos.org","summary":"… in the 14 th century. Discussion. From historical accounts we know that the Black Death\nwas imported into southern Europe from Asia, and reached Marseilles (southeast\nFrance) by November 1347. Plague then spread to western … \n","citing":null}
+
+{"url":null,"title":"The Jews of Europe after the black death","author":"A Foa - 2000 - books.google.com","summary":"Anna Foa's richly innovative history of Jewish life in Europe from the fourteenth through the nineteenth century breaks through the boundaries of traditional narratives. Instead of featuring a long series of catastrophes and cataclysms and the Jews' responses to them …","citing":null}
